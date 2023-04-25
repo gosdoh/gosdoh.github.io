@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.su/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>EXPRESS (Грузоперевозки)</title>
+</head>
+<body>
+  <header>
+  <hea class="navbar navbar-expand-lg header1 fixed-top">
+    <div class="container-fluid">
+      <!--Логодип-->
+      <a class="navbar-brand" href="#"><img src="img/1636193232_10-papik-pro-p-logotip-gruzoperevozki-foto-10.png" 
+      width="140" height="70" class="img-fluid"></a>
+      <!--/Логотип-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Переключатель навигации">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <!--номер-->
+          <li class="nav-item">
+          <a href="#footer" class="btn btn-itd0 btn-lg" data-bs-toggle="modal" data-bs-target="#calculator">
+            <i class="icon-phone"></i>+375(29)7857568
+          </a>
+          </li>
+          <!--/номер-->
+          <!-- сплывающие cписок -->
+          <li class="nav-item dropdown">
+            <a class="btn btn-s dropdown-toggle dro" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              выбор города
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Москва</a></li>
+              <li><a class="dropdown-item" href="#">Санкт петербург</a></li>
+              <li><a class="dropdown-item" href="#">Новосибирск</a></li>
+            </ul>
+            <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+            <!-- /сплывающие cписок -->
+            <!-- кнопка калькулятар-->
+            <li class="nav-item">
+                <a href="#footer" class="btn btn-itd btn-lg" data-bs-toggle="modal" data-bs-target="#calculator">
+                  <i class="icon-calculator"></i>калькулятьр</a>
+            </li>
+            <!-- /кнопка калькулятар-->
+            <!-- вход-->
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="btn btn-itd1 btn-outline-light" data-bs-toggle="modal" data-bs-target="#entrance">вход</a>
+          </li>
+          <!-- /вход-->
+        </ul>
+        <!-- поиск-->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+          <button class="btn btn-outline-success" type="submit">Поиск</button>
+        </form>
+        <!-- /поиск-->
+      </div>
+    </div>
+  </hea>
+</header>
+  <!-- на потом-->
+    
+  <!-- /на потом-->
+  <section>
+
+
+    <div class="container">
+      <div class="moo">
+      <div class="rom">
+          <div class="col_12">
+            <h2 class="text-center text-uppercase color1 mb-5">Виды перевозимых грузов</h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+              <div class="itd_circle m6">
+                <h5 class="text-center ">Фургоне</h5>
+                <div class="text-center jo1">
+                <img src="img/f1.PNG " 
+                class="rounded  img-fluid" width="245" height="70">
+                </div>
+                <button type="button" class="btn bo_12 btn-warning">Заказать</button>
+                <button type="button" class="btn bo_11 btn-warning">
+                  <i class="icon-calculator"></i></button>
+              </div>
+              
+              <div class="line"></div>
+          </div>
+          <div class="col">
+              <div class="itd_circle m6">
+              <h5 class="text-center">Грузовик</h5>
+              <div class="text-center jo2">
+              <img src="img/f2.PNG " 
+                class="rounded  img-fluid" width="245" height="70">
+              </div>
+              <button type="button" class="btn bo_12 btn-warning">Заказать</button>
+              <button type="button" class="btn bo_11 btn-warning">
+                <i class="icon-calculator"></i></button>
+              </div>
+              <div class="line"></div>
+          </div>
+          <div class="col">
+              <div class="itd_circle m6">
+              <h5 class="text-center">Фургон</h5>
+              <div class="text-center jo3">
+              <img src="img/f3.PNG " 
+                class="rounded  img-fluid" width="245" height="70">
+              </div> 
+              <button type="button" class="btn bo_12 btn-warning">Заказать</button>
+              <button type="button" class="btn bo_11 btn-warning">
+                <i class="icon-calculator"></i></button>
+              </div>
+              <div class="line"></div>
+          </div>
+          <div class="col">
+              <div class="itd_circle m6">
+              <h5 class="text-center">Грузовик</h5>
+                <div class="text-center jo4">
+                <img src="img/f4.PNG" 
+                  class="rounded  img-fluid" width="245" height="70">
+                </div>  
+                <button type="button" class="btn bo_12 btn-warning">Заказать</button>
+                <button type="button" class="btn bo_11 btn-warning">
+                  <i class="icon-calculator"></i></button>
+              </div>
+              <div class="line"></div>
+          </div>    
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+      <div class="rom">
+          <div class="col_12">
+            <h2 class="text-center text-uppercase color1 mb-5">Виды перевозимых грузов</h2>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xl-6 col-md-8 col-sm-12">
+              <div class="itd_circle m5">
+                <h5 class="text-center">Экспедирование</h5>
+                <img src="img/shutterstock.PNG " 
+                class="rounded float-end img-fluid" width="245" height="70">
+                <h6>Принимаем, сопровождаем</h6>
+                <h6>и сдаем </h6>
+                <h6>груз по утвержденному </h6>
+                <h6>маршруту. </h6>
+                <h6>Контролируем </h6>
+                <h6>правильное </h6>
+                <h6>оформление...</h6>
+                <button type="button" class="btn bo_13 btn-warning">Подробнее</button>
+              </div>
+              <div class="line"></div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12">
+              <div class="itd_circle m5">
+              <h5 class="text-center">Сборные рефгрузы</h5>
+              <img src="img/shutterstock1.PNG " 
+                class="rounded float-end img-fluid" width="245" height="70">
+              <h6>Принимаем, сопровождаем</h6>
+                <h6>и сдаем </h6>
+                <h6>груз по утвержденному </h6>
+                <h6>маршруту. </h6>
+                <h6>Контролируем </h6>
+                <h6>правильное </h6>
+                <h6>оформление...</h6>
+                <button type="button" class="btn bo_13 btn-warning">Подробнее</button>
+              </div>
+              <div class="line"></div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12">
+              <div class="itd_circle m5">
+              <h5 class="text-center">Перевозка медикаментов</h5>
+              <img src="img/fff.PNG " 
+                class="rounded float-end img-fluid" width="245" height="70">
+                <h6>Принимаем, сопровождаем</h6>
+                <h6>и сдаем </h6>
+                <h6>груз по утвержденному </h6>
+                <h6>маршруту. </h6>
+                <h6>Контролируем </h6>
+                <h6>правильное </h6>
+                <h6>оформление...</h6>
+                <button type="button" class="btn bo_13 btn-warning">Подробнее</button>
+              </div>
+              <div class="line"></div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12">
+              <div class="itd_circle m5">
+              <h5 class="text-center">Перевозка продуктов питания</h5>
+              <img src="img/Place.PNG " 
+                class="rounded float-end img-fluid" width="245" height="70">
+                <h6>Принимаем, сопровождаем</h6>
+                <h6>и сдаем </h6>
+                <h6>груз по утвержденному </h6>
+                <h6>маршруту. </h6>
+                <h6>Контролируем </h6>
+                <h6>правильное </h6>
+                <h6>оформление...</h6>
+                <button type="button" class="btn bo_13 btn-warning">Подробнее</button>
+              </div>
+              <div class="line"></div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12">
+              <div class="itd_circle m5">
+              <h5>Перевозка стройматериалов</h5>
+              <img src="img/Place.PNG " 
+                class="rounded float-end img-fluid" width="245" height="70">
+              <h6>Принимаем, сопровождаем</h6>
+                <h6>и сдаем </h6>
+                <h6>груз по утвержденному </h6>
+                <h6>маршруту. </h6>
+                <h6>Контролируем </h6>
+                <h6>правильное </h6>
+                <h6>оформление...</h6>
+                <button type="button" class="btn bo_13 btn-warning">Подробнее</button>
+              </div>
+              <div class="line"></div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12">
+              <div class="itd_circle m5">
+              <h5>Логистика и маршрутизация</h5>
+              <img src="img/fff.PNG " 
+                class="rounded float-end img-fluid" width="245" height="500">
+              <h6>Принимаем, сопровождаем</h6>
+                <h6>и сдаем </h6>
+                <h6>груз по утвержденному </h6>
+                <h6>маршруту. </h6>
+                <h6>Контролируем </h6>
+                <h6>правильное </h6>
+                <h6>оформление...</h6>
+                <button type="button" class="btn bo_13 btn-warning">Подробнее</button>
+              </div>
+              <div class="line"></div>
+          </div>
+          </div>
+      </div>
+
+      <div class="oh"></div>
+      
+    <div class="m2"></div>
+    <div class="container m2 m4">
+      <div class="rom">
+        <div class="col_12">
+          <h2 class="text-center text-uppercase color1 mb-5">О компании</h2>
+        </div>
+      </div>
+      <div class="row ">
+          <div class="col">
+              <div class="itd_circle ">
+                <h7>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</h7> 
+        <h7>aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</h7> 
+        <h7>aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</h7>
+
+        <h7>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditii</h7>
+        <h7>Sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt </h7>
+
+        <h7>Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</h7>
+        <h7>sunt in culpa qui officia deserunt mollit anim id est laborum.</h7>
+
+        <h7>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </h7>
+        <h7>aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</h7>
+              </div>
+              <div class="line"></div>
+          </div>
+          <div class="col">
+              <div class="itd_circle ">
+                <img src="img/12314123.png" class="img-fluid"  width="840" height="420">
+              </div>
+              <div class="line"></div>
+          </div> 
+      </div>
+    </div>
+
+      <div class="oh"></div>
+
+      <div class="container">
+        <div class="rom">
+            <div class="col_12">
+              <h1 class="text-center text-uppercase color1 mb-5">Приемущества</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_circle m3">
+                  <h5 class="text-center">Экономия времени</h5>
+                  <img src="img/chas.PNG " class="rounded float-end img-fluid">
+                  <h6>Не надо звонить</h6>
+                  <h6>и вести долгие </h6>
+                  <h6>переговоры</h6>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_circle m3">
+                  <h5 class="text-center">Гарантия цены</h5>
+                  <img src="img/c2.PNG " class="rounded float-end img-fluid">
+                  <h6>Не надо звонить</h6>
+                  <h6>и вести долгие </h6>
+                  <h6>переговоры</h6>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_circle m3">
+                  <h5 class="text-center">Страхование грузов</h5>
+                  <img src="img/box.PNG " class="rounded float-end img-fluid">
+                  <h6>Не надо звонить</h6>
+                  <h6>и вести долгие </h6>
+                  <h6>переговоры</h6>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_circle m3">
+                <h5 class="text-center">Отслеживание груза</h5>
+                <img src="img/carta.PNG " class="rounded float-end img-fluid">
+                <h6>Не надо звонить</h6>
+                <h6>и вести долгие </h6>
+                <h6>переговоры</h6>
+              </div>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_circle m3">
+                  <h5 class="text-center">Оплата картой</h5>
+                  <img src="img/card.PNG " class="rounded float-end img-fluid">
+                  <h6>Не надо звонить</h6>
+                  <h6>и вести долгие </h6>
+                  <h6>переговоры</h6>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_circle m3">
+                  <h5 class="text-center">Надёжные перевозчики</h5>
+                  <img src="img/man.PNG " class="rounded float-end img-fluid">
+                  <h6>Не надо звонить</h6>
+                  <h6>и вести долгие </h6>
+                  <h6>переговоры</h6>
+                </div>
+                <div class="line"></div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="rom">
+              <div class="col_12 oh">
+              </div>
+          </div>
+          <div class="row demo_wrap">
+              <div class="col-xl-6 col-md-6 col-sm-5">
+                  <div class="itd_circle">
+                    <h1 style="color:#ffffff">О нас в цифрах</h1>
+                    <h6 class="m8" style="color:#696970">
+                      Consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                      ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                      commodo consequat. Duis aute irure dolor 
+                    </h6>
+                  </div>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-1 col-md-2 col-sm-2">
+                  <div class="itd_circle ">
+                    <h1 class="m9 display-1" style="color:#ffffff">#6</h1>
+                    
+                  </div>
+                  <div class="line"></div>
+              </div>
+            
+            <div class="col-xl-4 col-md-4 col-sm-4">
+                <div class="itd_circle ">
+                  <h6 class="m10" style="color:#696970">Consectetur adipiscing elit, 
+                    sed do eiusmod tempor </h6>
+                </div>
+                <div class="line"></div>
+            </div>
+            </div>      
+            </div>
+              <div class="line"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container ao">
+          <div class="rom">
+              <div class="col_12">
+                
+              </div>
+          </div>
+          <div class="row ">
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="itd_circle m11">
+                    <h1>3500</h1>
+                    <h6>Профессиональных сотрудников</h6>
+                  </div>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="itd_circle m11">
+                    <h1>400</h1>  
+                    <h6>Единиц автотранспорта</h6>
+                  </div>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="itd_circle m11">
+                    <h1>31</h1>                  
+                    <h6>Филиал по всей России</h6>
+                  </div>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="itd_circle m11">
+                  <h1>10</h1>
+                  <h6>В топе транспортных компаний</h6>
+                </div>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="itd_circle m11">
+                    <h1>7000</h1>     
+                    <h6>Постоянных клиентов</h6>
+                  </div>
+                  <div class="line"></div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-sm-12">
+                  <div class="itd_circle m11">
+                    <h1>22</h1>                 
+                    <h6>Года вместе с вами</h6>
+                  </div>
+                  <div class="line"></div>
+              </div>
+              </div>
+          </div>
+
+<div class="container">
+  <div class="rom">
+    <div class="col_12">
+
+    </div>
+  </div>
+</div>
+
+<div class="container demo_wrap1">
+  <div class="rom">
+    <div class="col_12 oh">
+      <h1 class="text-center" style="color:#ffffff">Нет времени разбираться? 
+      Подскажем!</h1>
+    </div>
+  </div>
+    <div class="row g-4">
+          <div class="col-sm-4">
+            <h3 class="text-center" style="color:#ffffff">Я хочу перевезти
+              </h3>
+            <input type="text" class="form-control" placeholder="Например: Кухонный уголок" 
+            aria-label="Город">
+          </div>
+          <div class="col-sm-4">
+            <h3 class="text-center" style="color:#ffffff">Откуда - Куда
+              </h3>
+            <input type="text" class="form-control" placeholder="Например: Москва - Владивосток" 
+            aria-label="Область">
+          </div>
+          <div class="col-sm-4">
+            <h3 class="text-center" style="color:#ffffff">Телефон  
+              </h3>
+            <input type="text" class="form-control" placeholder="+375 __ ___ __ __" aria-label="Индекс">
+          </div>
+        <div class="col-auto">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+            <label class="form-check-label" for="autoSizingCheck">
+              Согласие на обработку персональных данных
+            </label>
+          </div>
+        </div>
+          <div class="col">
+            <a class="btn btn-itd2 btn-lg" data-bs-toggle="modal" 
+            style="display: block; margin-left: auto">
+            Оставить заявку</a>
+          </div>
+    </div>
+</div>
+
+<div class="container ">
+  <div class="rom">
+      <div class="col_12 oh">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button ji" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <h2>Рекомендации наших клиентов</h2>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Это тело аккордеона первого элемента.</strong> Оно отображается по умолчанию, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h2>Новости и акции</h2>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Это тело аккордеона второго элемента.</strong> По умолчанию он скрыт, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed ji" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h2>Наши партнеры</h2>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+
+  <!--конец-->
+    <footer>      
+        <div class="container">
+          <div class="rom">
+              <div class="col_12">
+                <div class="oh4">`
+                </div>
+              </div>
+          </div>
+          <div class="row">
+
+              <div class="col ">
+                  <div class="itd_circle" style="color:#ffffff">
+                    <h3>О компании</h3>
+                    <div><button type="button" class="btn btn-itd3" style="color:#ffffff">Филиалы</button></div>
+                    <div><button type="button" class="btn btn-itd3" style="color:#ffffff">Новости</button></div>
+                    <div><button type="button" class="btn btn-itd3" style="color:#ffffff">Блог</button></div>
+                    <div><button type="button" class="btn btn-itd3" style="color:#ffffff">Горячая линия</button></div>
+                  </div>
+                  <div class="line"></div>
+              </div>
+              <div class="col ">
+                  <div class="itd_circle"style="color:#ffffff">
+                    <h3>Направления</h3>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Тарифы</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Требования к грузу</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Требования к упаковке</button>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+              </div>
+              
+              <div class="col-xl-4 ">
+                  <div class="itd_circle" style="color:#ffffff">
+                    <h3>Международные перевозки</h3>
+                    
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва–Омск</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва–Красноярск</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва-Ростов-на-Дону</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва-Челябинск</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва–Барнаул</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва–Самара</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва-Челябинск</button>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+              </div>
+
+              <div class="col ">
+                <div class="itd_circle" style="color:#ffffff">
+                  <h3>Для бизнеса</h3>
+                  <div>
+                    <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                      Филиалы</button>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                      Новости</button>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                      Блог</button>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                    Горячая линия</button>
+                  </div>
+                    <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                    Вакансии</button>
+                  </div>
+              </div>
+                <div class="line"></div>
+            
+            <div class="oh3">
+            </div>
+
+              <div class="col-xl-3 ">
+                  <div class="itd_circle" style="color:#ffffff">
+                    <h3>Контакты</h3>
+                    <div>
+                      <button type="button" class="btn btn-itd5" style="color:#ffffff"> 
+                        <i class="icon-phone gosd1" style="color:#000"></i> +375(29)7857568</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd5" style="color:#ffffff"> 
+                        <i class="icon-mail-circled gosd1" style="color:#000"></i> mail@mail.ru</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd5" style="color:#ffffff"> 
+                        <i class="icon-whatsapp gosd1" style="color:#000"></i> WhatsApp</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd5" style="color:#ffffff"> 
+                        <i class="icon-phone-squared gosd1" style="color:#000"></i> Москва, ул. Лобачика 11</button>
+                    </div>
+                </div>
+                  <div class="line"></div>
+              </div>
+              
+
+              <div class="col-xl-3 ">
+                  <div class="itd_circle "style="color:#ffffff" style="color:#ffffff">
+                    <h3>Услуги</h3>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Тарифы</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Проверка груза по ттн</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Сотрудничество</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Электронный</button>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+              </div>
+
+              <div class="col-xl-4">
+                  <div class="itd_circle"style="color:#ffffff">
+                    <h3>Условия перевозок</h3>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва–Омск</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва–Красноярск</button>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                        Грузоперевозки Москва-Ростов-на-Дону</button>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+              </div>
+
+                  <div class="col">
+                    <div class="itd_circle" style="color:#ffffff">
+                      <h3>Частным лицам</h3>
+                      <div>
+                        <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                          Филиалы</button>
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                          Новости</button>
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                          Блог</button>
+                      </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="oh3">
+                </div>
+
+                <div class="col">
+                  <div class="itd_circle" style="color:#ffffff">
+                    <h3>Акции</h3>
+              
+                    
+                  </div>
+                  <div class="line"></div>
+              </div>
+
+                  <div class="col">
+                    <div class="itd_circle" >
+                      <h3 style="color:#ffffff">Соц сети</h3>
+
+                        <button type="button" class="btn btn-itd6">
+                          <i class="icon-vkontakte-rect gosd2" style="color:#000"></i></button>
+                      
+                        <button type="button" class="btn btn-itd6">
+                          <i class="icon-youtube-play gosd2" style="color:#000"></i></button>
+                      
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                      <div class="col">
+                        <div class="itd_circle" style="color:#ffffff">
+                          <h3>Блог</h3>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="col">
+                      <div class="itd_circle" style="color:#ffffff">
+                        <h3>Автопарк</h3>
+                      </div>
+                      <div class="line"></div>
+                  </div>
+
+                  <div class="col">
+                    <div class="itd_circle" style="color:#ffffff">
+                      <h3>Водителям</h3>
+                      <div>
+                        <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                          Филиалы</button>
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                          Новости</button>
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-itd3" style="color:#ffffff">  
+                          Блог</button>
+                      </div>
+                      <div>
+                        <button type="button" class="btn btn-itd3" style="color:#ffffff"> 
+                          Блог</button>
+                      </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+          </div>
+        </div>
+        <div class="line1"></div>
+        <div class="container">
+          <div class="rom">
+          <div class="text-center">
+          <button type="button" class="btn btn-itd7" style="color:#ffffff"> 
+            Политика конфиденциальности</button>
+            <button type="button" class="btn btn-itd7" style="color:#ffffff"> 
+              Реквизиты</button>
+            </div>
+        </div>
+      </div>
+
+
+        
+
+
+
+
+
+
+    </footer>
+    <!--калькулятьр-->
+    <div class="modal fade" id="calculator" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">колькулятор</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class='embed-container'><iframe src='https://www.youtube.com/embed//sFRrfUt7jc0' frameborder='0' allowfullscreen></iframe></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--вход-->
+      <div class="modal fade" id="entrance" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">вход</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class='embed-container'><iframe src='https://www.youtube.com/embed//sFRrfUt7jc0' frameborder='0' allowfullscreen></iframe></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
